@@ -1,1 +1,2 @@
 # usbSpi_Haberlesme
+Bu projede USB-SPI haberleşme protokollerinin birlikte kullanımı gerçekleştirilmiştir. SPI haberleşmenin olduğu gömülü bir sistem, USB haberleşmesi aracılığıyla bilgisayara bağlanmış, bilgisayar arayüzü aracılığıyla bu devre kontrol edilmiştir. Bu uygulamada veri paketleri ve hata denetim mekanizmaları kullanılarak veri iletiminin en hızlı ve doğru olması sağlanmıştır. Uygulamada bilgisayar arayüzü C# ile, gömülü sistem kısmı ise CCS C ile programlanmış, Microchip firmasının 18F4550 isimli mikrodenetleyicisi kullanılmıştır.
